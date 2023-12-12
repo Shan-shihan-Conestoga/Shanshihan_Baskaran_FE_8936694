@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="21754" systemVersion="22G313" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="DirectionData" representedClassName="DirectionData" syncable="YES" codeGenerationType="class">
+        <attribute name="directionEndPoint" optional="YES" attributeType="String"/>
+        <attribute name="directionStartPoint" optional="YES" attributeType="String"/>
+        <attribute name="directionTotalDistance" optional="YES" attributeType="String"/>
+        <attribute name="directionTravelMode" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="NewsData" representedClassName="NewsData" syncable="YES" codeGenerationType="class">
+        <attribute name="newsAuthor" optional="YES" attributeType="String"/>
+        <attribute name="newsDescription" optional="YES" attributeType="String"/>
+        <attribute name="newsSource" optional="YES" attributeType="String"/>
+        <attribute name="newsTitle" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="WeatherData" representedClassName="WeatherData" syncable="YES" codeGenerationType="class">
+        <attribute name="weatherDate" optional="YES" attributeType="String"/>
+        <attribute name="weatherHumidity" optional="YES" attributeType="String"/>
+        <attribute name="weatherTemp" optional="YES" attributeType="String"/>
+        <attribute name="weatherTime" optional="YES" attributeType="String"/>
+        <attribute name="weatherWind" optional="YES" attributeType="String"/>
+    </entity>
+</model>
